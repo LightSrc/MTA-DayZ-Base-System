@@ -1,0 +1,12 @@
+<meta>
+    <info author="Lights" type="script" description="Spawn base at your location" />
+	<script src="createObject.lua" type="client" />
+	<script src="base4.lua" type="client" />
+	<script src="base5.lua" type="client" />
+	<script src="base6.lua" type="client" />
+	<script src="c_script.lua" type="client" />
+	<script src="s_script.lua" type="server" />
+	<export function="getLastIDValue" type="server"/>
+	<export function="createBase" type="server"/>
+	<export function="deleteBase" type="server"/>
+</meta>
